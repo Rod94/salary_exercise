@@ -22,6 +22,12 @@ public class Main {
 		
 		System.out.println(employee);
 		
+		System.out.println("Which percentage to increase salary? ");
+		double percentage = sc.nextDouble();
+		employee.increaseSalary(percentage);
+		
+		System.out.println("Update data: " + employee);
+		
 		
 		sc.close();
 	}
